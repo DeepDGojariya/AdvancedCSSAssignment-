@@ -1,0 +1,98 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1490604001847-b712b0c2f967?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  margin: 0px;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-desc {
+  width: 200px;
+  height: 90px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.description {
+  width: 768px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.hobbies-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  max-width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card .text {
+  padding: 0 20px 20px;
+}
+
+.card .text > button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}/*# sourceMappingURL=about.css.map */
